@@ -1,0 +1,85 @@
+body{
+background-color: #eee;
+font-family: 'Sorts Mill Goudy', serif;
+}
+#container{
+    background-color: #fff;
+    width: 80%;
+}
+#id{
+    width: 80%;
+    align-items: center;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+header > div {
+    flex: 1 1rem;
+    display: flex;
+}
+header > div > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+#navbar{
+    background-color: #2D2654;
+    text-align: center;
+    min-height: 2.5rem;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+#navbar > a{
+    flex: auto;
+    color: #bbb;
+    text-decoration: none;
+    margin: 0.7rem;
+    vertical-align: middle;
+    
+}
+#navbar > a:hover{
+    color: #fff;
+}
+#now > a{
+    flex: auto;
+    color: #fff;
+    text-decoration: none;
+    margin: 0.7rem;
+    vertical-align: middle;
+}
+#body_content{
+    display: flex;
+}
+#body_content > div{
+    flex: auto;
+}
+.h_line{
+    border-bottom: 2px dashed #ccc;
+    display: block;
+}
+.v_line{
+    border-right: 2px dotted #ccc;
+}
+.h_line2{
+    border-bottom: 1.5px dashed #ccc;
+    display: block;
+}
+.floatRight{
+    float:right;
+    margin-left:20px;
+    max-width: 10rem;
+}
+.connect{
+    
+}
+#news_image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#myqrcode{
+    max-width: 7rem;
+}
